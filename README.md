@@ -4,6 +4,8 @@ rpi4 used for assignment
 
 -clone the repository in the poky folder
 
+git clone https://github.com/ilpist/meta-heartbeat
+
 -add meta-heartbeat to layers of the project with the following command
 
 bitbake-layers add-layer meta-heartbeat
