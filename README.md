@@ -13,7 +13,9 @@ bitbake-layers add-layer meta-heartbeat
 -add to local.conf the following lines
 
 IMAGE_INSTALL_append = " heartbeat"
+
 IMAGE_INSTALL_append = " kheartbeat"
+
 KERNEL_MODULE_AUTOLOAD += "kheartbeat"
 
 -change in heartbeat.bb and kheartbeat.bb the COMPATIBLE_MACHINE value with the machine used
